@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "test": "ava"
+    "test": "ava",
+    "prepublishOnly": "pnpm run build"
   },
   "bin": {
     "edget": "dist/index.js"
