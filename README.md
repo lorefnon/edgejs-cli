@@ -1,7 +1,5 @@
 # edgejs-cli
 
-:warning: Maturity Level: Alpha
-
 Minimal CLI utility to generate files using edge.js templates
 
 ## Usage
