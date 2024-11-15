@@ -1,6 +1,6 @@
 {
   "name": "edgejs-cli",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "CLI utility to generate files based on edge templates",
   "main": "index.js",
   "type": "module",
@@ -27,15 +27,18 @@
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^22.9.0",
+    "@types/xml2js": "^0.4.14",
     "ava": "^6.2.0",
     "typescript": "^5.6.3"
   },
   "dependencies": {
     "@fastify/deepmerge": "^2.0.0",
+    "dedent": "^1.5.3",
     "edge.js": "^6.2.0",
     "globby": "^14.0.2",
     "js-yaml": "^4.1.0",
     "p-map": "^7.0.2",
-    "ts-frontmatter": "^1.0.1"
+    "ts-frontmatter": "^1.0.1",
+    "xml2js": "^0.6.2"
   }
 }

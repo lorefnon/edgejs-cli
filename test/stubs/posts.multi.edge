@@ -1,0 +1,8 @@
+@each (post in posts)
+<file path="post/{{post.slug}}/summary.html" trim="true" dedent="true">
+    {{post.title}} - by {{post.author}}
+</file>
+<file path="post/{{post.slug}}/details.html" trim="true" dedent="true">
+    {{post.body}}
+</file>
+@end

@@ -1,0 +1,10 @@
+name: OS
+posts:
+  - slug: linux
+    title: Linux is open source
+    author: Linus
+    body: Linux is more versatile
+  - slug: windows
+    title: Windows is proprietary
+    author: Gates
+    body: Windows is more popular
