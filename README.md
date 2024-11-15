@@ -12,13 +12,13 @@ pnpm i -g edgejs-cli
 
 # Render a single template
 edget -i templates/home.edge -o site
-# ^ Generates home.html by rendering home.edge
+# ^ Generates site/home.html by rendering home.edge
 
 # Pass data to templates through a JSON/YAML file
 edget -i templates/home.edge -o site -d data.json
 # ^ Same as above but home.edge can use any values defined in data.json
 
-# Render all templates in a directory (Files prefixed with . or _ are ignored)
+# Render all templates within a directory (Files prefixed with . or _ are ignored)
 edget -i templates -o site -d data.json
 
 # Skip escaping if generating non-html content

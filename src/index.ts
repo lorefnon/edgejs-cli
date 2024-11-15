@@ -14,7 +14,7 @@ const dMerge = DeepMerge()
 
 const templates = await collectTemplates()
 if (!templates?.length) fail("No templates could be found")
-const context = await parseContext(args.contextPath)
+const context = await parseContext(args.dataPath)
 await generateFiles(templates!, context)
 
 // ---
@@ -189,9 +189,9 @@ async function getArgs() {
                 type: "string",
                 short: "o"
             },
-            contextPath: {
+            dataPath: {
                 type: "string",
-                short: "c"
+                short: "d"
             },
             relativeContextPath: {
                 type: "string",
